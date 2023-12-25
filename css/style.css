@@ -1,0 +1,132 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.font-w-500{
+  font-weight: 500;
+}
+.build-dark-color{
+  color: #3b404f;
+}
+.carousel-caption{
+  max-width: 41%;
+}
+.carousel-title-text{
+  font-size: 64px;
+  font-weight: 900;
+}
+.carousel-small-text{
+  font-size: 18px;
+  font-weight: 500;
+}
+@media (max-width:1080px) {
+  .carousel-title-text{
+    font-size: 40px;
+  }
+  .carousel-small-text{
+    font-size: 12px;
+  } 
+}
+@media (max-width:768px) {
+  .carousel-small-text {
+    display: none;
+  }
+  .carousel-title-text {
+    font-size: 20px;
+    margin-top: 40%;
+  }
+}
+@media (max-width:490px) {
+  .carousel-title-text {
+    display: none;
+  }
+}
+.carousel-indicators [data-bs-target]{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  opacity: 1;
+}
+.carousel-indicators .active{
+  background-color: #fab702;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.control-arrow{
+  width: 35px;
+  height: 35px;
+}
+.carousel-control-next, .carousel-control-prev{
+  opacity: 1;
+}
+.font-w-400{
+  font-weight: 400;
+}
+.font-w-700{
+  font-weight: 700;
+}
+.font-s-16{
+  font-size: 16px;
+}
+.contact-block{
+  color: #fff;
+  font-size: 30px;
+}
+.btn-link-quote{
+  background: #fff;
+  padding: 13px 35px;
+  border-radius: 0;
+}
+.block-title-text{
+  font-size: 44px;
+}
+.under-title-text{
+  font-size: 18px;
+  color: #6d7396;
+  line-height: 30px;
+  max-width: 800px;
+}
+.card{
+  border: none;
+  border-radius: 0;
+}
+.small-title-text{
+  font-size: 22px;
+}
+.card-c{
+  color: #6d7396;
+  line-height: 24px;
+}
+.company-details-block{
+  background: #f8f8f8;
+}
+.company-c{
+  color: #6d7396;
+}
+.title-w-icon-1{
+  background-image: url(../images/ic-city.png);
+}
+.icon-BB{
+  padding: 5px 0 10px 45px;
+  background-repeat: no-repeat;
+}
+.title-w-icon-2 {
+  background-image: url(../images/ic-home.png);
+}
+.title-w-icon-3 {
+  background-image: url(../images/ic-refabr.png);
+}
+.signature-block{
+  font-size: 11px;
+}
+.companies-list{
+  max-width: 900px;
+}
+.feedback-card{
+  width: 600px;
+}
+.footer{
+  background: #4c5b6d;
+  color: #d8deff;
+  font-size: 13px;
+}
